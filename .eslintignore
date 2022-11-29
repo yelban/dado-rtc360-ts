@@ -1,7 +1,10 @@
 dist
 *.scss
 *.css
-node_modules
+**/.DS_Store
+**/*.log
+**/node_modules
+.vscode/*
 package.lock.json
-.DS_Store
 build
+vite.config.*
