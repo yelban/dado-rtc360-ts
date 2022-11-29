@@ -1,0 +1,166 @@
+{
+	"editor.suggestSelection": "first",
+	"editor.formatOnSave": false, // 預設的存擋時格式化
+	"[javascript]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		}
+	},
+	"javascript.validate.enable": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"[javascriptreact]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		}
+	},
+	// "javascriptreact.validate.enable": false,
+	// "javascriptreact.updateImportsOnFileMove.enabled": "always",
+	"[typescript]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		}
+	},
+	"typescript.validate.enable": false,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"[typescriptreact]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		}
+	},
+	// "typescriptreact.validate.enable": false,
+	// "typescriptreact.updateImportsOnFileMove.enabled": "always",
+	"[markdown]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		}
+	},
+	"[mdx]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		}
+	},
+	"[json]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		// "editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[jsonc]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		// "editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[html]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"eslint.options": {
+		"extensions": [
+			".js", //
+			".jsx",
+			".ts",
+			".tsx",
+			".md",
+			".mdx"
+		]
+	},
+	"eslint.validate": [
+		"javascript", //
+		"javascriptreact",
+		"typescript",
+		"typescriptreact",
+		"markdown",
+		"mdx"
+	],
+	"eslint.alwaysShowStatus": true,
+	"eslint.runtime": "node",
+	"eslint.execArgv": ["--max_old_space_size=8192"],
+	"docwriter.language": "Chinese",
+	// disable the built-in CSS, Less, and SCSS linters
+	"css.validate": false,
+	"less.validate": false,
+	"scss.validate": false,
+	// Add the language identifiers you want to validate to the extension's workspace
+	"stylelint.validate": [
+		"css", //
+		"less",
+		"postcss",
+		"scss",
+		"stylus"
+	],
+	"stylelint.snippet": [
+		"css", //
+		"less",
+		"postcss",
+		"scss",
+		"stylus"
+	],
+	"[css]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.stylelint": true
+		},
+		"editor.defaultFormatter": "stylelint.vscode-stylelint"
+	},
+	"[less]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.stylelint": true
+		},
+		"editor.defaultFormatter": "stylelint.vscode-stylelint"
+	},
+	"[scss]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.stylelint": true
+		},
+		"editor.defaultFormatter": "stylelint.vscode-stylelint"
+	},
+	"[stylus]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.stylelint": true
+		},
+		"editor.defaultFormatter": "stylelint.vscode-stylelint"
+	},
+	"[solidity]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"auto-rename-tag.activationOnLanguage": [
+		"html", //
+		"xml",
+		"php",
+		"markdown",
+		"mdx",
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact"
+	],
+	"breadcrumbs.enabled": false,
+	"editor.bracketPairColorization.enabled": true,
+	// "workbench.colorCustomizations": {
+	// 	"editorBracketHighlight.foreground1": "#5caeef",
+	// 	"editorBracketHighlight.foreground2": "#dfb976",
+	// 	"editorBracketHighlight.foreground3": "#c172d9",
+	// 	"editorBracketHighlight.foreground4": "#4fb1bc",
+	// 	"editorBracketHighlight.foreground5": "#97c26c",
+	// 	"editorBracketHighlight.foreground6": "#abb2c0",
+	// 	"editorBracketHighlight.unexpectedBracket.foreground": "#db6165"
+	// },
+	// "editor.cursorStyle": "line-thin",
+	// "editor.codeActionsOnSave": {
+	// 	"source.fixAll": true
+	// },
+	"editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 14,
+	// "editor.fontWeight": "500",
+	// "window.zoomLevel": 0.5,
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular'",
+	"terminal.integrated.lineHeight": 1.1,
+	"files.watcherExclude": {
+		"**/.git/objects/**": true,
+		"**/.git/subtree-cache/**": true,
+		"**/node_modules/*/**": true
+	}
+	// "autoimport.filesToScan": "**/*.{ts,tsx,js,jsx}",
+}
