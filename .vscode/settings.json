@@ -1,6 +1,13 @@
 {
 	"editor.suggestSelection": "first",
 	"editor.formatOnSave": false, // 預設的存擋時格式化
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	"tailwindCSS.emmetCompletions": true,
 	"[javascript]": {
 		"editor.codeActionsOnSave": {
 			"source.fixAll.eslint": true
