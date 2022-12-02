@@ -4,9 +4,6 @@
 	"editor.quickSuggestions": {
 		"strings": true
 	},
-	"files.associations": {
-		"*.css": "tailwindcss"
-	},
 	"tailwindCSS.emmetCompletions": true,
 	"[javascript]": {
 		"editor.codeActionsOnSave": {
@@ -82,6 +79,7 @@
 	"eslint.runtime": "node",
 	"eslint.execArgv": ["--max_old_space_size=8192"],
 	"docwriter.language": "Chinese",
+	"css.lint.unknownAtRules": "ignore",
 	// disable the built-in CSS, Less, and SCSS linters
 	"css.validate": false,
 	"less.validate": false,

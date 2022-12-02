@@ -2,22 +2,25 @@ module.exports = {
 	extends: [
 		//
 		'stylelint-config-standard',
-		'stylelint-config-prettier',
+		// 'stylelint-config-prettier',
+		'stylelint-prettier/recommended',
 		'stylelint-config-html/html',
-		'stylelint-config-standard-scss',
-		'stylelint-config-prettier-scss',
+		// 'stylelint-config-standard-scss', // disabled to prevent CssSyntaxError
+		// 'stylelint-config-prettier-scss',
 		'stylelint-config-idiomatic-order',
 		'stylelint-config-clean-order',
 	],
 	plugins: ['stylelint-order'],
 	rules: {
 		// 'color-hex-length': 'long',
-		'scss/at-rule-no-unknown': [
+		// 'prettier/prettier': true,
+		'at-rule-no-unknown': [
 			true,
 			{
 				ignoreAtRules: ['tailwind'],
 			},
 		],
+		'no-descending-specificity': null,
 	},
 	overrides: [
 		{
